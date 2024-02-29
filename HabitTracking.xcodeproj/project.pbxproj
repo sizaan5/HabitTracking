@@ -11,6 +11,10 @@
 		338AB26A2B8DE92C0065E75A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB2692B8DE92C0065E75A /* ContentView.swift */; };
 		338AB26C2B8DE92D0065E75A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338AB26B2B8DE92D0065E75A /* Assets.xcassets */; };
 		338AB26F2B8DE92D0065E75A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338AB26E2B8DE92D0065E75A /* Preview Assets.xcassets */; };
+		338AB2792B8DF60D0065E75A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB2782B8DF60D0065E75A /* Utilities.swift */; };
+		338AB27B2B8DF6380065E75A /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB27A2B8DF6380065E75A /* Activity.swift */; };
+		338AB27D2B8DF6E60065E75A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB27C2B8DF6E60065E75A /* AddView.swift */; };
+		338AB27F2B90724C0065E75A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338AB27E2B90724C0065E75A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		338AB2692B8DE92C0065E75A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		338AB26B2B8DE92D0065E75A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		338AB26E2B8DE92D0065E75A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		338AB2782B8DF60D0065E75A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		338AB27A2B8DF6380065E75A /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		338AB27C2B8DF6E60065E75A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		338AB27E2B90724C0065E75A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		338AB2662B8DE92C0065E75A /* HabitTracking */ = {
 			isa = PBXGroup;
 			children = (
+				338AB2772B8DF5FA0065E75A /* Models */,
+				338AB2762B8DF5F20065E75A /* Utilities */,
+				338AB2752B8DF5D50065E75A /* Views */,
 				338AB2672B8DE92C0065E75A /* HabitTrackingApp.swift */,
-				338AB2692B8DE92C0065E75A /* ContentView.swift */,
 				338AB26B2B8DE92D0065E75A /* Assets.xcassets */,
 				338AB26D2B8DE92D0065E75A /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				338AB26E2B8DE92D0065E75A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		338AB2752B8DF5D50065E75A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				338AB2692B8DE92C0065E75A /* ContentView.swift */,
+				338AB27C2B8DF6E60065E75A /* AddView.swift */,
+				338AB27E2B90724C0065E75A /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		338AB2762B8DF5F20065E75A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				338AB2782B8DF60D0065E75A /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		338AB2772B8DF5FA0065E75A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				338AB27A2B8DF6380065E75A /* Activity.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338AB2792B8DF60D0065E75A /* Utilities.swift in Sources */,
+				338AB27F2B90724C0065E75A /* DetailView.swift in Sources */,
 				338AB26A2B8DE92C0065E75A /* ContentView.swift in Sources */,
+				338AB27D2B8DF6E60065E75A /* AddView.swift in Sources */,
+				338AB27B2B8DF6380065E75A /* Activity.swift in Sources */,
 				338AB2682B8DE92C0065E75A /* HabitTrackingApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
